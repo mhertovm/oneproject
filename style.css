@@ -5,10 +5,8 @@
 }
 
 .logo{
-    /* float: right; */
-    /* padding-right: 10px; */
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
 }
 .navbar{
     background-color: rgb(184, 131, 101);
@@ -22,6 +20,9 @@
     text-decoration: none;
     font-size: 17px;
 }
+.navbarԼeft a:hover{
+    color: black;
+}
 .navbarRight a{
     float: right;
     color: #f2f2f2;
@@ -29,4 +30,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+}
+.navbarRight a:hover{
+    color: black;
 }
