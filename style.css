@@ -22,6 +22,7 @@
 }
 .navbarԼeft a:hover{
     color: black;
+    cursor: pointer;
 }
 .navbarRight a{
     float: right;
@@ -33,4 +34,5 @@
 }
 .navbarRight a:hover{
     color: black;
+    cursor: pointer;
 }
