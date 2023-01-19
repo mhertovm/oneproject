@@ -11,6 +11,9 @@
     background-color: rgba(92, 68, 53, 0.85);
     overflow: hidden;
 }
+.logo{
+    float: left;
+}
 .navbarԼeft a{
     float: left;
     color: #f2f2f2;
