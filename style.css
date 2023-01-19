@@ -2,10 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
- }
-.logo{
-    width: 50px;
-    height: 50px;
+
 }
 .navbar{
     background-color: rgba(92, 68, 53, 0.85);
@@ -13,6 +10,16 @@
 }
 .logo{
     float: left;
+    width: 50px;
+    height: 50px;
+}
+.box{
+    float: right;
+    width: 40px;
+    height: 40px;
+}
+.search{
+    float: right;
 }
 .navbarԼeft a{
     float: left;
@@ -36,5 +43,4 @@
 }
 .navbarRight a:hover{
     color: black;
-    cursor: pointer;
 }
