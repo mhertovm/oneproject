@@ -7,6 +7,7 @@
 .navbar{
     background-color: rgba(92, 68, 53, 0.85);
     overflow: hidden;
+    height: 55px;
 }
 .logo{
     float: left;
@@ -44,5 +45,17 @@
     color: black;
 }
 .box{
-    float: right;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+.categories{
+    position: absolute;
+    top: 10%;
+    left: 4%;
+}
+.featured{
+    position: absolute;
+    top: 40%;
+    left: 4%;
 }
