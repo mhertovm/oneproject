@@ -23,24 +23,26 @@
 }
 .navbarԼeft a{
     float: left;
-    color: #f2f2f2;
+    color: #ffffff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 .navbarԼeft a:hover{
     color: black;
-    cursor: pointer;
 }
 .navbarRight a{
     float: right;
-    color: #f2f2f2;
+    color: #ffffff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 .navbarRight a:hover{
     color: black;
+}
+.box{
+    float: right;
 }
