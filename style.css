@@ -44,6 +44,10 @@
 .grid-item-right a:hover{
     color: black;
 }
+.grid-container-main{
+    display: grid;
+    grid-template-columns: auto auto;
+}
 /* .grid-container{
 display: grid;
   grid-template-areas:
