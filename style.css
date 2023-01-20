@@ -10,8 +10,8 @@
     background-color: rgba(92, 68, 53, 0.85);
 }
 .logo{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 .cart{
     width: 40px;
@@ -48,16 +48,25 @@
     display: grid;
     grid-template-columns: auto auto;
 }
-/* .grid-container{
-display: grid;
-  grid-template-areas:
-  'header '
-  'menu main main main'
-  'footer';
-  gap: 1px;
-  background-color: rgba(92, 68, 53, 0.85);
-  padding: 1px;
+.categories a{
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
 }
+.categories{
+    padding: 30px;
+}
+.featured a{
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.featured{
+    padding: 30px;
+}
+/* 
 .navbar{
     background-color: rgba(92, 68, 53, 0.85);
     overflow: hidden;
@@ -97,12 +106,9 @@ display: grid;
 }
 .navbarRight a:hover{
     color: black;
-} */
-/* .box{
-    position: absolute;
-    top: 10%;
-    left: 25%;
 }
+
+
 .categories{
     position: absolute;
     top: 10%;
@@ -124,4 +130,4 @@ display: grid;
     margin: 10px;
     text-decoration: none;
     font-size: 17px;
-} */
+} */ 
