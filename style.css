@@ -13,7 +13,7 @@
     width: 50px;
     height: 50px;
 }
-.cart{
+.carticon{
     width: 40px;
     height: 40px;
 }
@@ -21,8 +21,8 @@
     display: flex;
 }
 .grid-item-right{
-    display: flex;
-    justify-content: flex-end;
+    display: flex; 
+    justify-content: flex-end; 
 }
 .grid-item-left a{
     color: #ffffff;
@@ -50,21 +50,34 @@
 }
 .categories a{
     color: black;
-    padding: 20px;
+    padding: 5px;
     text-decoration: none;
     font-size: 17px;
 }
 .categories{
+    display: flex;
+    flex-direction: column;
     padding: 30px;
+}
+.categories a:hover{
+    color: rgba(92, 68, 53, 0.85);
 }
 .featured a{
     color: black;
-    padding: 20px;
+    padding: 5px;
     text-decoration: none;
     font-size: 17px;
 }
 .featured{
+    display: flex;
+    flex-direction: column;
     padding: 30px;
+}
+.search{
+    padding: 16px 16px;
+}
+.cart{
+    padding: 3px 16px;
 }
 /* 
 .navbar{
