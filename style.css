@@ -49,12 +49,14 @@
     grid-template-columns: auto auto;
 }
 .categories a{
+
     color: black;
     padding: 5px;
     text-decoration: none;
     font-size: 17px;
 }
 .categories{
+
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -63,6 +65,7 @@
     color: rgba(92, 68, 53, 0.85);
 }
 .featured a{
+
     color: black;
     padding: 5px;
     text-decoration: none;
@@ -78,6 +81,16 @@
 }
 .cart{
     padding: 3px 16px;
+}
+.container{
+    text-align: center;
+}
+.box{
+    background-color: rgb(255, 127, 127);
+    text-align: center;
+}
+.box:hover{
+    color: brown;
 }
 /* 
 .navbar{
