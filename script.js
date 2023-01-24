@@ -29,6 +29,21 @@ const art = [
         name: "Art 6",
         price : "1000$"
     },
+    {
+        img: "photo/7.jpg",
+        name: "Art 7",
+        price : "1000$"
+    },
+    {
+        img: "photo/8.jpg",
+        name: "Art 8",
+        price : "1000$"
+    },
+    {
+        img: "photo/9.jpg",
+        name: "Art 9",
+        price : "1000$"
+    },
 ]
 
 function addProduct(name, price,img) {
@@ -41,19 +56,30 @@ function addProduct(name, price,img) {
     const newH2 = document.createElement("h2");
     const newP = document.createElement("p");
     const newIMG = document.createElement("img");
+    const btn = document.createElement("button");
 
     newH2.appendChild(name_of_art);
     newP.appendChild(price_of_art);
-
+    btn.innerText ="buy";
+    btn.addEventListener("click", function(){
+            boxplus.innerHTML++
+    });
+    const boxplus = document.getElementById("carticon")
     newIMG.src = img;
 
-    newDiv.append(newIMG, newH2, newP);
+    newDiv.append(newIMG, newH2, newP, btn);
+
     newDiv.style.cssText = "padding: 20px; width:28%; display: inline-block;";
     newDiv.className = "box"
+    btn.className = "plus"
     const currentDiv = document.getElementById("container");
     currentDiv.appendChild(newDiv);
+
+
+
 }
 
 for(let i = 0; i < art.length; i ++){
     addProduct(art[i].name, art[i].price, art[i].img)
 }
+
