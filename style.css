@@ -10,8 +10,15 @@
     background-color: rgba(92, 68, 53, 0.85);
 }
 .logo{
-    width: 50px;
-    height: 50px;
+    position: absolute;
+    top: 1%;
+	left: 0%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    font-size: 90%;
+    font-family: "Lucida Handwriting";
+    color: rgba(135, 255, 235, 0.5);
 }
 .carticon{
     width: 40px;
@@ -88,9 +95,9 @@
     text-align: center;
 }
 .box{
+    display: flex;
     box-shadow: 0 4px 4px 0px rgb(133, 133, 133), 0 4px 20px 0 rgb(133, 133, 133);
     text-align: center;
-    /* font-family: "Lucida Handwriting"; */
     cursor: pointer;
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -111,5 +118,6 @@
     cursor: pointer;
 }
 .plus{
+    
     padding: 1px 70px;
 }
