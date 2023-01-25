@@ -106,6 +106,10 @@
     padding: 5px 120px;
     display: flex; 
 }
+.plus:hover{
+    background-color: green;
+    cursor: pointer;
+}
 .plus{
-
+    padding: 1px 70px;
 }
