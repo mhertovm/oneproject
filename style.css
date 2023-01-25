@@ -88,9 +88,9 @@
     text-align: center;
 }
 .box{
-    box-shadow: 0 4px 4px 0px rgba(92, 68, 53, 0.85), 0 4px 20px 0 rgba(92, 68, 53, 0.85);
+    box-shadow: 0 4px 4px 0px rgb(133, 133, 133), 0 4px 20px 0 rgb(133, 133, 133);
     text-align: center;
-    font-family: "Lucida Handwriting";
+    /* font-family: "Lucida Handwriting"; */
     cursor: pointer;
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -107,7 +107,7 @@
     display: flex; 
 }
 .plus:hover{
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0.5);
     cursor: pointer;
 }
 .plus{
