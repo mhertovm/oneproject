@@ -47,7 +47,6 @@ const art = [
 ]
 
 function addProduct(name, price,img) {
-
     const name_of_art = document.createTextNode(name);
     const price_of_art = document.createTextNode(price);
 
@@ -61,8 +60,17 @@ function addProduct(name, price,img) {
     newH2.appendChild(name_of_art);
     newP.appendChild(price_of_art);
     btn.innerText ="buy";
+    let click = 1;
     btn.addEventListener("click", function(){
+        if(click == 1) {
             boxplus.innerHTML++
+            btn.style.cssText = "background-color: green;";
+            click = 0;
+          } else {
+            boxplus.innerHTML--
+            btn.style.cssText = "";
+            click = 1;
+          }
     });
     const boxplus = document.getElementById("carticon")
     newIMG.src = img;

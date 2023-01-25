@@ -105,70 +105,7 @@
 .advertising{
     padding: 5px 120px;
     display: flex; 
-    /* justify-content: flex-end; */
 }
-/* 
-.navbar{
-    background-color: rgba(92, 68, 53, 0.85);
-    overflow: hidden;
-    height: 55px;
-}
-.logo{
-    float: left;
-    width: 60px;
-    height: 60px;
-}
-.cart{
-    float: right;
-    width: 50px;
-    height: 50px;
-}
-.search{
-    float: right;
-}
-.navbarԼeft a{
-    float: left;
-    color: #ffffff;
-    text-align: center;
-    padding: 16px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-.navbarԼeft a:hover{
-    color: black;
-}
-.navbarRight a{
-    float: right;
-    color: #ffffff;
-    text-align: center;
-    padding: 16px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-.navbarRight a:hover{
-    color: black;
-}
+.plus{
 
-
-.categories{
-    position: absolute;
-    top: 10%;
-    left: 4%;
 }
-.categories a{
-    color: #000000;
-    margin: 10px;
-    text-decoration: none;
-    font-size: 17px;
-}
-.featured{
-    position: absolute;
-    top: 40%;
-    left: 4%;
-}
-.featured a{
-    color: #000000;
-    margin: 10px;
-    text-decoration: none;
-    font-size: 17px;
-} */ 
