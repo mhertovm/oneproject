@@ -115,6 +115,7 @@
 }
 .plus:hover{
     background-color: rgba(0, 128, 0, 0.5);
+    /* background-color: rgba(9, 139, 9, 0.562); */
     cursor: pointer;
 }
 .plus{
