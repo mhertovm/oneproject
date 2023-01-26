@@ -15,8 +15,8 @@ header{
 }
 .logo{
     position: absolute;
-    top: 5%;
-	left: 0%;
+    top: 5px;
+	left: 0px;
     width: 120px;
     height: 120px;
     text-align: center;
@@ -29,11 +29,11 @@ header{
     height: 40px;
 }
 .grid-item-left{
-    padding: 5px 100px;
+    padding: 5px 120px;
     display: flex;
 }
 .grid-item-right{
-    padding: 5px 100px;
+    padding: 5px 120px;
     display: flex; 
     justify-content: flex-end; 
 }
@@ -64,13 +64,13 @@ header{
 .categories a{
 
     color: black;
+    margin-left: 12px;
     padding: 5px;
     text-decoration: none;
     font-size: 17px;
 }
 .categories{
-
-    display: flex;
+    display:flex;
     flex-direction: column;
     padding: 30px 140px;
 }
@@ -99,7 +99,7 @@ header{
     text-align: center;
 }
 .box{
-    padding: 12px; 
+    padding: 15px; 
     margin: 25px;
     display: inline-block;
     border-bottom-style: solid;
@@ -108,6 +108,7 @@ header{
     cursor: pointer;
     background-color: rgb(255, 255, 255);
     text-align: center;
+    font-family: "Arial";
 }
 .box:hover{
     box-shadow: 0 4px 4px 0px rgb(133, 133, 133), 0 4px 20px 0 rgb(133, 133, 133);
@@ -123,10 +124,8 @@ header{
 }
 .plus:hover{
     background-color: rgba(0, 128, 0, 0.5);
-    /* background-color: rgba(9, 139, 9, 0.562); */
     cursor: pointer;
 }
 .plus{
-    
-    padding: 1px 70px;
+    padding: 1px 42px;
 }

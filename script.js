@@ -59,7 +59,7 @@ function addProduct(name, price,img) {
 
     newH2.appendChild(name_of_art);
     newP.appendChild(price_of_art);
-    btn.innerText ="buy";
+    btn.innerText ="Add your art";
     let click = 1;
     btn.addEventListener("click", function(){
         if(click === 1) {
