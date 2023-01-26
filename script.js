@@ -64,7 +64,7 @@ function addProduct(name, price,img) {
     btn.addEventListener("click", function(){
         if(click == 1) {
             boxplus.innerHTML++
-            btn.style.cssText = "background-color: rgb(9, 139, 9, 0.7)";
+            btn.style.cssText = "background-color: rgb(9, 139, 9, 0.75)";
             click = 0;
           } else {
             boxplus.innerHTML--

@@ -4,6 +4,10 @@
     box-sizing: border-box;
 
 }
+header{
+    position: sticky;
+    top: 0; 
+}
 .grid-container-header {
     display: grid;
     grid-template-columns: auto auto;
@@ -11,12 +15,12 @@
 }
 .logo{
     position: absolute;
-    top: 1%;
+    top: 5%;
 	left: 0%;
     width: 120px;
     height: 120px;
     text-align: center;
-    font-size: 90%;
+    font-size: 95%;
     font-family: "Lucida Handwriting";
     color: rgba(135, 255, 235, 0.5);
 }
