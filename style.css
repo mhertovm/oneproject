@@ -94,8 +94,9 @@
 .container{
     text-align: center;
 }
-.box{
-    display: flex;
+.box{padding: 20px; 
+    margin: 20px;
+    display: inline-block;
     box-shadow: 0 4px 4px 0px rgb(133, 133, 133), 0 4px 20px 0 rgb(133, 133, 133);
     text-align: center;
     cursor: pointer;

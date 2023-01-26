@@ -77,7 +77,6 @@ function addProduct(name, price,img) {
 
     newDiv.append(newIMG, newH2, newP, btn);
 
-    newDiv.style.cssText = "padding: 20px; width:28%; display: inline-block;";
     newDiv.className = "box"
     btn.className = "plus"
     const currentDiv = document.getElementById("container");
