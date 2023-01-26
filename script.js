@@ -62,7 +62,7 @@ function addProduct(name, price,img) {
     btn.innerText ="buy";
     let click = 1;
     btn.addEventListener("click", function(){
-        if(click == 1) {
+        if(click === 1) {
             boxplus.innerHTML++
             btn.style.cssText = "background-color: rgb(9, 139, 9, 0.75)";
             click = 0;
