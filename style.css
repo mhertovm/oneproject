@@ -98,17 +98,20 @@ header{
 .container{
     text-align: center;
 }
-.box{padding: 20px; 
-    margin: 20px;
+.box{
+    padding: 12px; 
+    margin: 25px;
     display: inline-block;
-    box-shadow: 0 4px 4px 0px rgb(133, 133, 133), 0 4px 20px 0 rgb(133, 133, 133);
+    border-bottom-style: solid;
+    border-color: rgb(92, 68, 53);
     text-align: center;
     cursor: pointer;
     background-color: rgb(255, 255, 255);
     text-align: center;
 }
 .box:hover{
-    color: rgba(92, 68, 53, 0.85);
+    box-shadow: 0 4px 4px 0px rgb(133, 133, 133), 0 4px 20px 0 rgb(133, 133, 133);
+    color: rgb(92, 68, 53);
 }
 .box img{
     width: 200px;

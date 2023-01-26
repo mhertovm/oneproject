@@ -2,47 +2,47 @@ const art = [
     {
         img: "photo/1.jpg",
         name: "Art 1",
-        price : "1000$"
+        price : "1 մլն ֏"
     },
     {
         img: "photo/2.jpg",
         name: "Art 2",
-        price : "1000$"
+        price : "1 մլն ֏"
     },
     {
         img: "photo/3.jpg",
         name: "Art 3",
-        price : "1000$"
+        price : "1 մլն ֏"
     },
     {
         img: "photo/4.jpg",
         name: "Art 4",
-        price : "1000$"
+        price : "1 մլն ֏"
     },
     {
         img: "photo/5.jpg",
         name: "Art 5",
-        price : "1000$"
+        price : "1 մլն ֏"
     },
     {
         img: "photo/6.jpg",
         name: "Art 6",
-        price : "1000$"
+        price : "1 մլն ֏"
     },
     {
         img: "photo/7.jpg",
         name: "Art 7",
-        price : "1000$"
+        price : "1 մլն ֏"
     },
     {
         img: "photo/8.jpg",
         name: "Art 8",
-        price : "1000$"
+        price : "1 մլն ֏"
     },
     {
         img: "photo/9.jpg",
         name: "Art 9",
-        price : "1000$"
+        price : "1 մլն ֏"
     },
 ]
 
