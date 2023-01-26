@@ -39,11 +39,7 @@ const art = [
         name: "Art 8",
         price : "1 մլն ֏"
     },
-    {
-        img: "photo/9.jpg",
-        name: "Art 9",
-        price : "1 մլն ֏"
-    },
+
 ]
 
 function addProduct(name, price,img) {
