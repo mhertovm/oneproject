@@ -59,11 +59,11 @@ function addProduct(name, price,img) {
     let click = 1;
     btn.addEventListener("click", function(){
         if(click === 1) {
-            boxplus.innerHTML++
+            boxplus.textContent++
             btn.style.cssText = "background-color: rgb(9, 139, 9, 0.75)";
             click = 0;
           } else {
-            boxplus.innerHTML--
+            boxplus.textContent--
             btn.style.cssText = "";
             click = 1;
           }
