@@ -99,12 +99,10 @@ header{
     text-align: left;
 }
 .box{
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(92, 68, 53) 0px 0px 0px 2px;
     padding: 15px; 
     margin: 25px;
     display: inline-block;
-    border-bottom-style: solid;
-    border-color: rgb(92, 68, 53);
     text-align: center;
     cursor: pointer;
     background-color: rgb(255, 255, 255);
